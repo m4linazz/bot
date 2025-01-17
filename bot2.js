@@ -9,7 +9,7 @@ bot.command('start', (ctx) => {
    .row()
    .text('Помощь', 'help');
 
-   ctx.reply('Выберите одну из опций:', { reply_markup: keyboard});
+   ctx.reply('Выберите одну изз опций:', { reply_markup: keyboard});
 });
 
 bot.on('callback_query:data', (ctx => {
