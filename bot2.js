@@ -25,6 +25,8 @@ bot.on('callback_query:data', (ctx => {
         ctx.answerCallbackQuery('Выберите опцию для получения информации.');
         ctx.reply('Для получения информации выберите любую из опций');
     }
+
+    
 }))
 
 bot.start();
