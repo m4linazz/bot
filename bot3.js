@@ -33,7 +33,7 @@ bot.on('callback_query:data', async (ctx) => {
             : `Ты выбрал ${userChoice}, но выпал ${botResult}. 😞 Сыграем еще раз?`;
 
         const playAgainKeyboard = new InlineKeyboard()
-            .text('Да', 'play')
+            .text('Да', 'play_again')
             .text('Нет', 'no_thanks');
 
         await ctx.reply(resultMessage, { reply_markup: playAgainKeyboard });
