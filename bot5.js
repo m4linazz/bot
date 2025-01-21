@@ -52,4 +52,4 @@ bot.on('message:text', (ctx) => {
 });
 
 bot.start();
-console.log('Бот запущен...');
+console.log('Бот запущен..');
