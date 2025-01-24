@@ -1,7 +1,7 @@
-require('dotenv').config(); // Загружаем переменные из .env файла
+require('dotenv').config(); 
 
-const port = process.env.PORT || 3000; // Используем порт из переменной или ставим 3000 по умолчанию
-const debugMode = process.env.DEBUG === 'true'; // Преобразуем строку в булевое значение
+const port = process.env.PORT || 3000; 
+const debugMode = process.env.DEBUG === 'true';
 
 console.log(`Сервер запущен на порту: ${port}`);
 console.log(`Режим отладки: ${debugMode ? 'Включен' : 'Выключен'}`);
